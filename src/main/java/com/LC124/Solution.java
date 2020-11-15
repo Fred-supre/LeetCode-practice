@@ -18,7 +18,6 @@ public class Solution {
             this.right = right;
         }
     }
-
     private TreeNode newTree() {
         TreeNode root = new TreeNode(5);
         root.left = new TreeNode(4, new TreeNode(11, new TreeNode(7), new TreeNode(2)), null);
